@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8561a6d-48c0-4d56-a3d6-5e23ff5643d4">
+  <producedTypes>
+    <objectType typeId="ec41eac3-a59e-4677-a08d-4e260bfbb03c" valueTypeId="e9a102b6-ac4d-49a7-8609-560c0a1e6efe"/>
+    <managerType typeId="aa6cbe26-9fb9-4f29-a1a5-a6a5e672565e" valueTypeId="ec328e7f-785f-4bf6-a147-eeacbc3e8b57"/>
+  </producedTypes>
+  <name>IT_ТестРаботыСGIT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест работы с GIT</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.IT_ТестРаботыСGIT.Form.Form</defaultForm>
+  <attributes uuid="1d810646-cec2-4d37-af97-31ab262c21de">
+    <name>Реквизит1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <forms uuid="287f4111-ed85-456f-9e16-c06b6a741cc6">
+    <name>Form</name>
+    <synonym>
+      <key>ru</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
